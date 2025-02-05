@@ -1,0 +1,3 @@
+Asad sajid,Supervisor,20000
+Rafaqt Irslan,cooker,5000
+SASANK VINNAKOTA,Supervisor,1,40000

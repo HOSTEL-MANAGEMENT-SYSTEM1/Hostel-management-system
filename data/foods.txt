@@ -1,0 +1,2 @@
+Burger ,50,9
+Burger chicken,60,39
