@@ -1094,3 +1094,8 @@ if __name__ == "__main__":
     loadfoodData()
     loaddataRooms()
     app.run(debug=True,host="0.0.0.0")
+from waitress import serve
+from app import app  # Assuming 'app' is your Flask application object
+
+if __name__ == "__main__":
+    serve(app, host='0.0.0.0', port=5000)
