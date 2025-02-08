@@ -1,4 +1,7 @@
 import os
+import waitress
+print(waitress)
+
 from flask import Flask, render_template, request
 app = Flask(__name__, template_folder="templtes")
 path = os.path.dirname(os.path.abspath(__file__))
@@ -1095,7 +1098,7 @@ if __name__ == "__main__":
     loaddataRooms()
     app.run(debug=True,host="0.0.0.0")
 from waitress import serve
-from app import app  # Assuming 'app' is your Flask application object
+from app import app  
 
 if __name__ == "__main__":
     serve(app, host='0.0.0.0', port=5000)
